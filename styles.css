@@ -100,7 +100,7 @@ header .profile-image:hover {
 }
 
 /*Changes For Mobile Functionality*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1020px){
   .card {
     margin: 0 auto;
     margin-bottom: 50px;
