@@ -21,42 +21,20 @@ a:hover {
   color: #F48FB1;
 }
 
+.navbar{
+  background-color: #C2185B;
+}
+.navbar-brand{
+  color: white;
+}
+
+
+
 /* Section Styles */
 
-.main-nav {
-  width: 100%;
-  background-color: #C2185B;
-  min-height: 30px;
-  padding: 10px;
-  position: fixed;
-  text-align: center;
-  
-}
-.nav {
-  display: flex;
-  justify-content: space-around;
-  font-weight: 700;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-}
-.nav .name {
-  display: none;
-}
-.nav li {
-  padding: 10px 10px 10px 10px;
-}
-.nav li:hover {
-   background:#F06292;
-   transition: all .9s;
-}
-.nav a {
-  transition: all .5s;
-}
-.nav a:hover {
-  color: #F8BBD0;
- 
-}
+
+
+
 
 header {
   text-align: center;
@@ -79,11 +57,24 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.7) rotate(5deg);
 }
-iframe{
-  border: 8px solid;
-  border-color: #D81B60;
-  border-radius: 5px;
+
+.video-container {
+    padding-bottom: 40px;
+    padding-top: 35px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
+.video-container iframe {
+    top:0;
+    left: 0;
+    width:700 ;
+    height:400;
+    border: 8px solid;
+    border-color: #D81B60;
+    border-radius: 5px;
+}
+
 .tag {
   background-color: #E91E63;
   color: floralwhite;
@@ -112,6 +103,12 @@ iframe{
 .card:hover {
   border-color: #F06292;
   transform: scale(1.2);
+}
+@media screen and (max-width: 500px){
+  .card_q{
+    display: block;
+  }
+  
 }
 
 ul.skills {
@@ -239,21 +236,7 @@ i:hover {
     min-height: 450px;
   }
 
-  .nav {
-    max-width: 1200px;
-  }
 
-  .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
-  }
-    .nav .name_item {
-    border: 1px solid;
-    border-radius: 20px;
-    color: white;
-    margin-right: 20px;
-  }
   .row{
     font-size: 30px;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -283,6 +266,13 @@ label {
   color: #D81B60;
   font: bold;
 }
+input {
+  margin: 0 auto;
+}
+textarea {
+  margin: 0 auto;
+}
+
 
   h2 {
      font-family: "Comic Sans MS", cursive, sans-serif; 
