@@ -10,6 +10,7 @@ body {
   background-position: center;
   /*background-repeat: no-repeat;*/
   background-size: 800px;
+  
 }
 /* Link Styles */
 
@@ -32,7 +33,6 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -52,22 +52,18 @@ header .profile-image:hover {
   transform: scale(1.7) rotate(5deg);
 }
 
-.video-container {
-    padding-bottom: 40px;
-    padding-top: 35px;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+.container {
+    
+    width: 60%;
+    height: 60%;
+   
 }
-.video-container iframe {
-    top:0;
-    left: 0;
-    width:700 ;
-    height:400;
+iframe{
     border: 8px solid;
     border-color: #D81B60;
     border-radius: 5px;
 }
+
 
 .tag {
   background-color: #E91E63;
@@ -100,7 +96,7 @@ header .profile-image:hover {
 }
 
 /*Changes For Mobile Functionality*/
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 600px){
   .card {
     margin: 0 auto;
     margin-bottom: 50px;
@@ -108,13 +104,17 @@ header .profile-image:hover {
   .card_q{
     margin: 0 auto;
   }
-  .card_q li{
-    margin: 0 auto;
-  }
+ 
    h2 {
      font-family: "Comic Sans MS", cursive, sans-serif; 
   }
-  
+  .flex {
+      display: block;
+      margin: 0 auto;
+      justify-content: space-around;
+  }
+
+
 }
 
 ul.skills {
@@ -183,7 +183,6 @@ footer {
 
 footer .copyright {
   top: -8px;
-  margin-right: 20px;
   font-size: .75em;
 }
 
@@ -233,7 +232,7 @@ i:hover {
   
   .flex {
       display: flex;
-      max-width: 1200px;
+      max-width: 100%;
       justify-content: space-around;
       margin: 0 auto;
   }
