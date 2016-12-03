@@ -53,7 +53,6 @@ header .profile-image:hover {
 }
 
 .container {
-    
     width: 60%;
     height: 60%;
    
@@ -104,14 +103,15 @@ iframe{
   .card_q{
     margin: 0 auto;
   }
+   .flex {
+      display: inline-block;
+      margin: 0 auto;
+      justify-content: space-around;
+  }
+
  
    h2 {
      font-family: "Comic Sans MS", cursive, sans-serif; 
-  }
-  .flex {
-      display: block;
-      margin: 0 auto;
-      justify-content: space-around;
   }
 
 
