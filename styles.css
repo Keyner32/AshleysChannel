@@ -4,14 +4,12 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   color: #222;
-  background-image: url("images/om2_icon.jpg");
-  background-position: center;
-  /*background-repeat: no-repeat;*/
-  background-size: 800px;
+  background-image: url("images/galaxyblue_icon.png");
+  background-size: 2000px;
   
 }
+
 /* Link Styles */
 
 a {
@@ -19,11 +17,11 @@ a {
   color: #FCE4EC;
 }
 a:hover {
-  color: #F48FB1;
+  color: #00897B;
 }
 
 .navbar{
-  background-color: #C2185B;
+  background-color: #167ac6;
 }
 .navbar-brand{
   color: white;
@@ -45,7 +43,7 @@ header .profile-image {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  border: 3px solid black;
+  border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -59,25 +57,27 @@ header .profile-image:hover {
 }
 iframe{
     border: 8px solid;
-    border-color: #D81B60;
+    border-color: #00897B;
     border-radius: 5px;
 }
 
 
 .tag {
-  background-color: #E91E63;
+  background-color: #1E88E5;
   color: floralwhite;
   padding: 10px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  letter-spacing: 5px;
+  font-family: 'Caveat Brush', cursive;
   border-radius: 20px;
   display: table;
   margin: 10px auto;
 } 
 .message {
-  background-color: #E91E63;
+  background-color: #1E88E5;
   color: floralwhite;
   font-size: 30px;
-  font-family: "Comic Sans MS", cursive, sans-serif
+  font-family: 'Gochi Hand', cursive;
+  letter-spacing: 2px;
 }
 .card {
   margin: 30px;
@@ -90,30 +90,52 @@ iframe{
   transition: all 1s;
 }
 .card:hover {
-  border-color: #F06292;
+  border-color: #00897B;
   transform: scale(1.2);
 }
 
 /*Changes For Mobile Functionality*/
 @media screen and (max-width: 600px){
   .card {
-    margin: 0 auto;
+    margin: 40px auto;
     margin-bottom: 50px;
   }
   .card_q{
     margin: 0 auto;
   }
+  div.social_media {
+  margin: 0 auto;
+}
+  ul.question {
+   padding: 0;
+  text-align: center;
+}
+ li .question  {
+  border-radius: 6px;
+  display:block;
+  background: #167ac6;
+  color: white;
+  padding: 5px 2px;
+  margin: 4px;
+}
    .flex {
       display: inline-block;
       margin: 0 auto;
       justify-content: space-around;
   }
-
- 
-   h2 {
-     font-family: "Comic Sans MS", cursive, sans-serif; 
-  }
-
+  #submit_button{
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 20px;
+    background-color: #00897B;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+}
+#submit_button:hover{
+    background-color: #7E57C2;
+}
 
 }
 
@@ -125,14 +147,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #F48FB1;
+  background: #039BE5; 
   color: white;
   padding: 5px 20px;
   margin: 4px;
 }
 
 .skills li:nth-child(odd) {
-  background: #F06292;
+  background: #167ac6;
 }
 
 ul.inspir {
@@ -143,14 +165,14 @@ ul.inspir {
 .inspir li {
  border-radius: 6px;
   display: inline-block;
-  background: #F48FB1;
+  background: #167ac6;
   color: white;
   padding: 5px 20px;
   margin: 4px;
 }
 
 .inspir li:nth-child(odd) {
-  background: #F06292;
+  background: #039BE5; 
 }
 ul.card_q {
   padding: 0;
@@ -160,17 +182,17 @@ ul.card_q {
 .card_q li {
   border-radius: 6px;
   display: inline-block;
-  background: #F48FB1;
+  background: #167ac6;
   color: white;
   padding: 5px 20px;
   margin: 4px;
   font-size: 20px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Gochi Hand', cursive;
 }
 .card_q h2 {
   border-radius: 10px;
-  background: #E91E63;
-  font-size: 30px;
+  background: #7E57C2;
+  font-size: 50px;
 }
 
 
@@ -199,16 +221,21 @@ footer ul li {
 div.social_media {
   display: inline-block;
   margin-top: 200px;
+  transform: scale(1.7);
+ 
 }
 a.social_media {
-  color: black;
-}
-a.social_media:hover {
-  transition: all .25s;
-
-  opacity: 1;
+  margin: 20px;
 }
 
+/*Fonts Letters*/
+/*font-family: 'Caveat Brush', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Titan One', cursive;*/
 
 
 .description{
@@ -233,11 +260,7 @@ a.social_media:hover {
     min-height: 450px;
   }
 
-
-  .row{
-    font-size: 30px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-  }
+ 
 #name {
     width: 275px;
     height: 30px;
@@ -252,28 +275,17 @@ a.social_media:hover {
  }
 #submit_button{
     border-radius: 10px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 10px;
+    font-family: 'Caveat Brush', cursive;
     font-size: 20px;
-    background-color: #F06292;
+    background-color: #00897B;
     color: #fff;
     width: 100px;
     height: 40px;
 }
-label {
-  color: #D81B60;
-  font: bold;
+#submit_button:hover{
+    background-color: #7E57C2;
 }
-input {
-  margin: 0 auto;
-}
-textarea {
-  margin: 0 auto;
-}
-
-
-  h2 {
-     font-family: "Comic Sans MS", cursive, sans-serif; 
-  }
 
   main {
     padding-top: 50px;
@@ -283,11 +295,34 @@ textarea {
     line-height: 1.6em;
   }
 
-  footer {
-    font-size: 1.3em;
+}
+
+ .row{
+    font-size: 30px;
+    
+  }
+label {
+  color: white;
+  letter-spacing: 5px;
+  font-family: 'Titan One', cursive;
+}
+input {
+  margin: 0 auto;
+}
+textarea {
+  margin: 0 auto;
+}
+h2{
+  font-family: 'Bungee Shade', cursive;
+}
+ footer {
+    font-size: 1em;
+    color: white;
     max-width: 1200px;
     margin: 40px auto;
-  }
-
+}
+p{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 20px;
 }
 
