@@ -7,7 +7,6 @@ body {
   color: #222;
   background-image: url("images/galaxyblue_icon.png");
   background-size: 2000px;
-  
 }
 
 /* Link Styles */
@@ -96,6 +95,10 @@ iframe{
 
 /*Changes For Mobile Functionality*/
 @media screen and (max-width: 600px){
+  body{
+    margin: 0 auto;
+    width: 300px;
+  }
   .card {
     margin: 40px auto;
     margin-bottom: 50px;
