@@ -5,14 +5,48 @@
   <meta charset="utf-8">
   <title>Ash Bash Channel </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
   <link href="favicon.ico" rel="icon" type="image/x-icon" />
   </head>
   <body>
 
+ <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <!-- <i class="fa fa-play-circle"></i> <span class="light">Portfolio</span> -->
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Videos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 <!--NEW NAV BAR-->
-    <div class = "navbar navbar-inverse navbar-static-top">
+    <!--<div class = "navbar navbar-inverse navbar-static-top">
         <div class="container">
           <a href = "#" class = "navbar-brand">Ash Bash</a>
 
@@ -36,7 +70,7 @@
           </div>
 
         </div>
-      </div>
+      </div>-->
 
     <header>
       <img src="images/ash_main.png" alt="Ash Bash" class="profile-image">

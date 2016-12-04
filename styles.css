@@ -208,15 +208,7 @@ a.social_media:hover {
 
   opacity: 1;
 }
-i {
-  padding:40px;
-  background: #FCE4EC;
-  border-radius: 80px;
-}
-i:hover {
-    transition: all 2s;
-   transform: scale(2);
-}
+
 
 
 .description{
