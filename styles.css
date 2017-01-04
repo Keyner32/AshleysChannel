@@ -100,16 +100,15 @@ iframe{
 }
 
 /*Changes For Mobile Functionality*/
-@media screen and (max-width: 720px){
+@media screen and (max-width: 640px){
   body {
-    width: 220px;
+    width: 280px;
     margin: 0px auto;
   }
   .fullcontainer{
     width: 100%;
-   
     margin: 0px auto;
-    padding: 1%;
+    
   }
   .card {
     display: block;
@@ -139,7 +138,7 @@ iframe{
    .flex {
       display: block;
       margin: 0 auto;
-      width: 300px;
+      width: 100%;
       
   }
   #submit_button{
